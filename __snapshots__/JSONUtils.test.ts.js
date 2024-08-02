@@ -39,8 +39,8 @@ exports['JSONUtils should format JSON as JS 1'] = `
   otherTest: 1.234,
   nullTest: null
 }
-`;
+`
 
 exports['JSONUtils should properly escape <script> 1'] = `
 '\\x3Cscript>test\\x3C/script>\\x3Cscript>test\\x3C/script>\\x3Cscript>test\\x3C/script>'
-`;
+`

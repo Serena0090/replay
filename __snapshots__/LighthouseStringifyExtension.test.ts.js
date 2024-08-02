@@ -1,6 +1,6 @@
 exports['LighthouseStringifyExtension handles ending timespan 1'] = `
 const fs = require('fs');
-const puppeteer = require('puppeteer'); // v22.0.0 or later
+const puppeteer = require('puppeteer'); // v23.0.0 or later
 
 (async () => {
   const browser = await puppeteer.launch();
@@ -54,11 +54,11 @@ const puppeteer = require('puppeteer'); // v22.0.0 or later
   fs.writeFileSync(__dirname + '/flow.report.html', lhFlowReport)
 
   await 
-`;
+`
 
 exports['LighthouseStringifyExtension handles ending navigation 1'] = `
 const fs = require('fs');
-const puppeteer = require('puppeteer'); // v22.0.0 or later
+const puppeteer = require('puppeteer'); // v23.0.0 or later
 
 (async () => {
   const browser = await puppeteer.launch();
@@ -124,13 +124,11 @@ const puppeteer = require('puppeteer'); // v22.0.0 or later
   fs.writeFileSync(__dirname + '/flow.report.html', lhFlowReport)
 
   await 
-`;
+`
 
-exports[
-  'LighthouseStringifyExtension handles multiple sequential navigations 1'
-] = `
+exports['LighthouseStringifyExtension handles multiple sequential navigations 1'] = `
 const fs = require('fs');
-const puppeteer = require('puppeteer'); // v22.0.0 or later
+const puppeteer = require('puppeteer'); // v23.0.0 or later
 
 (async () => {
   const browser = await puppeteer.launch();
@@ -190,4 +188,4 @@ const puppeteer = require('puppeteer'); // v22.0.0 or later
   fs.writeFileSync(__dirname + '/flow.report.html', lhFlowReport)
 
   await 
-`;
+`

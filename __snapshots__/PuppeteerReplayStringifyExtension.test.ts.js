@@ -1,6 +1,4 @@
-exports[
-  'PuppeteerReplayStringifyExtension should print the script for a click step 1'
-] = `
+exports['PuppeteerReplayStringifyExtension should print the script for a click step 1'] = `
 await runner.runStep({
   type: 'click',
   target: 'main',
@@ -16,7 +14,7 @@ await runner.runStep({
   ]
 });
 
-`;
+`
 
 exports['PuppeteerReplayStringifyExtension should print an entire script 1'] = `
 import url from 'url';
@@ -50,4 +48,4 @@ if (process && import.meta.url === url.pathToFileURL(process.argv[1]).href) {
 }
 //# recorderSourceMap=BIO
 
-`;
+`

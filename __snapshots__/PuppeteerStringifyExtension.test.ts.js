@@ -1,6 +1,4 @@
-exports[
-  'PuppeteerStringifyExtension should print the correct script for a click step 1'
-] = `
+exports['PuppeteerStringifyExtension should print the correct script for a click step 1'] = `
 {
   const targetPage = page;
   await puppeteer.Locator.race([
@@ -15,11 +13,9 @@ exports[
     });
 }
 
-`;
+`
 
-exports[
-  'PuppeteerStringifyExtension should print the correct script for asserted events 1'
-] = `
+exports['PuppeteerStringifyExtension should print the correct script for asserted events 1'] = `
 {
   const targetPage = page;
   const promises = [];
@@ -40,11 +36,9 @@ exports[
   await Promise.all(promises);
 }
 
-`;
+`
 
-exports[
-  'PuppeteerStringifyExtension should print the correct script with a chain selector 1'
-] = `
+exports['PuppeteerStringifyExtension should print the correct script with a chain selector 1'] = `
 {
   const targetPage = page;
   await puppeteer.Locator.race([
@@ -59,11 +53,9 @@ exports[
     });
 }
 
-`;
+`
 
-exports[
-  'PuppeteerStringifyExtension should print the correct script for a change step 1'
-] = `
+exports['PuppeteerStringifyExtension should print the correct script for a change step 1'] = `
 {
   const targetPage = page;
   await puppeteer.Locator.race([
@@ -73,11 +65,9 @@ exports[
     .fill('Hello World');
 }
 
-`;
+`
 
-exports[
-  'PuppeteerStringifyExtension should print the correct script for a change step for non-text inputs 1'
-] = `
+exports['PuppeteerStringifyExtension should print the correct script for a change step for non-text inputs 1'] = `
 {
   const targetPage = page;
   await puppeteer.Locator.race([
@@ -87,16 +77,16 @@ exports[
     .fill('#333333');
 }
 
-`;
+`
 
 exports['PuppeteerStringifyExtension Firefox should stringify 1'] = `
-const puppeteer = require('puppeteer'); // v22.0.0 or later
+const puppeteer = require('puppeteer'); // v23.0.0 or later
 
 (async () => {
-  const browser = await puppeteer.launch({browser: 'firefox', protocol: 'webDriverBiDi'});
+  const browser = await puppeteer.launch({browser: 'firefox'});
   const page = await browser.newPage();
   const timeout = 5000;
   page.setDefaultTimeout(timeout);
 
 
-`;
+`

@@ -4,4 +4,4 @@ exports['stringifyStep should stringify a single step 1'] = `
   await targetPage.goto('https://localhost/');
 }
 
-`;
+`

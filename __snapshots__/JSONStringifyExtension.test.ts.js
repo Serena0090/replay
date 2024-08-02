@@ -14,7 +14,7 @@ exports['JSONStringifyExtension should print the script for a click step 1'] = `
   ]
 }
 
-`;
+`
 
 exports['JSONStringifyExtension should print an entire script 1'] = `
 {
@@ -52,4 +52,4 @@ exports['JSONStringifyExtension should print an entire script 1'] = `
 }
 //# recorderSourceMap=BDORO
 
-`;
+`
