@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.1](https://github.com/puppeteer/replay/compare/v3.0.0...v3.0.1) (2024-08-05)
+
+
+### Bug Fixes
+
+* remove isOOPFrame check ([#850](https://github.com/puppeteer/replay/issues/850)) ([fd9f974](https://github.com/puppeteer/replay/commit/fd9f974d6e7dc59f92e3dea0c5f7b087cbc8135f))
+
 ## [3.0.0](https://github.com/puppeteer/replay/compare/v2.13.4...v3.0.0) (2024-02-05)
 
 
